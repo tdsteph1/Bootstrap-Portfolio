@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title> Bootstrap </title>
+
+  <!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+<!-- Optional theme -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+
+<!-- jQuery, javascript file for the Bootstrap's javascript file to function -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+  <!-- Bootstrap's javascript file that allows the dropdown menu to work  -->
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
+  <link rel="stylesheet" href="assets/css/style.css">
+
+  <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+  
+</head>
+
+<body>
+
+<!-- Go to (GetBoostrap.com) & copy past Navbar/DefaultNavbar and delete extra components you don't need -->
+<nav class="navbar navbar-default header">                     
+ 
+  <div class="container">                             <!-- delete fluid in "container-fluid" to move the header text closer in -->
+
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header">
+      
+      <a class="navbar-brand" href="#">  TJ Stephens </a>
+    
+    </div>
+
+      <ul class="nav navbar-nav navbar-right">
+        
+        <li><a href="index.html">About</a></li>
+        <li><a href="#"> | </a></li>
+        <li><a href="portfolio.html">Portfolio</a></li>
+        <li><a href="#"> | </a></li>
+        <li><a href="contact.html">Contact</a></li>
+      
+      </ul>
+    
+    </div> <!-- /.container-fluid -->
+</nav>  <!-- End of Header -->
+
+
+
+
+<div class="container container-index">
+
+
+
+  <!-- Row 1 -->
+  <div class="row">
+      
+      <!-- Col -->
+      <div class="col-md-8">
+
+          <div class="page-header">
+          
+            <h1> About Me </h1>
+          
+          </div>
+
+      
+      
+  
+      <!-- Row 2 -->
+      <div class="row">   <!-- Row within a row -->
+      
+          <!-- Col -->
+          <div class="col-md-5">
+
+            <img class="img img-rounded" src="assets/images/TJ.jpg"  alt="Grad" height="200" width="200">
+            
+           <!-- This version makes image expand when minimizing screen<img src="assets/images/TJ.jpg" alt="Placeholder" class="img img-thumbnail">-->
+
+          </div>
+        
+          <!-- Col -->
+          <div class="col-md-7">
+            <p> TJ Stephens is a computer science graduate from Arizona State University. TJ Likes to golf, run, read and go to movies. His favorite baseball team is the New York Yankees. 
+                TJ did a capstone project for Sogeti during his senior year developing a Web application called the Sogetti Project Tracker and received an A+(101/100). TJ enjoys going to 
+                the Noble Engineering Library. TJ also works for a store fixture company where he was able to pay forhis tuition with no debt. TJ built many display cases for customers in order 
+                to make that possible. TJ loves listening to 80's music and 90's music and immensely dislikes today's music.TJ's favorite band is Pink Floyd. TJ's favorite movies are Terminator 2, 
+                Heat, Witness, Casino.
+            </p>  
+          </div>
+
+      </div>  <!-- End Row2 -->
+
+      </div>  <!-- End col-md-8 in Row1 -->
+  
+
+    <!-- Col -->
+    <div class="col-md-4">              <!-- Think col-md-8 in (Row1) 8+4 = 12 -->
+
+      <div class="panel panel-default">
+        
+          <div class="panel-heading">
+          
+            <h3 class="panel-title"> Connect With Me </h3>
+        
+          </div>
+
+          <div class="panel-body">
+      
+            <!-- Github, LinkedIn, StackOverflow images with links -->
+           <a href="https://github.com/tdsteph1" target="_blank">  <img class="img-rounded git_img" src="assets/images/git.png" alt="git-hub"> </a> 
+           <a href="https://www.linkedin.com/in/terry-stephens-9a0a70121/" target="_blank"> <img class="img-rounded link_img" src="assets/images/link.svg" width="64" length="64"  alt="git-hub"> </a> 
+           <a href="https://stackoverflow.com/users/8197035/terry-stephens" target="_blank"> <img class="img-rounded stack_img" src="assets/images/stack.png"  alt="git-hub"> </a> 
+          
+
+        
+          </div>
+
+      </div> <!-- End panel panel-default -->
+    </div>   <!-- End col-md-4 -->
+  </div>     <!-- End Row 1 -->
+
+
+</div>    <!-- End of Container -->
+
+<!-- We place footer below (Container) since you don't want it to take up 12 columns and want to take up the engire row or page -->
+
+<nav class="navbar navbar-default footer">                     <!-- navbar-fixed-bottom will work but will remain on the page as we scroll down, use margins instead here or in css file -->
+ 
+  <div class="container">                               <!-- delete fluid in "container-fluid" to move the header text closer in -->
+
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header">
+      
+      <a class="navbar-brand" href="#"> <p> &copy; Copyright 2017 TJ Stephens  </p>  </a>
+    
+    </div>
+
+      
+    
+    </div> <!-- /.container-fluid -->
+</nav>  <!-- End of Header -->
+
+
+</body>
+</html>
